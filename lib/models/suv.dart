@@ -1,13 +1,8 @@
-import 'package:code_rabbit_flutter/models/vehicle.dart';
+import 'vehicle.dart';
 
-class Suv implements Vehicle {
+class Suv extends Vehicle {
   @override
   void open() {
     print('SUV door opened');
-  }
-
-  @override
-  void start() {
-    print('Fuel engine started');
   }
 }

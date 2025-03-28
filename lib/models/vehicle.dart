@@ -1,4 +1,7 @@
 abstract class Vehicle {
-  void start();
+  void start() {
+    print('Fuel engine started');
+  }
+
   void open();
 }
